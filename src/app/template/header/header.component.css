@@ -1,0 +1,95 @@
+.banner {
+  height: 82px;
+  background-color: var(--surface-0);
+}
+
+.iconHeader {
+  font-size: 2rem;
+  padding-left: 25px;
+  padding-top: 25px;
+  background-color: var(--blue-900);
+  height: 82px;
+  width: 83px;
+}
+
+.btnProfile {
+  float: right;
+  background: var(--bluegray-600);
+  padding: 25px;
+  height: 82px;
+  width: 175px;
+}
+
+.lblUserName{
+  font-style: italic;
+  font-size: 12px;
+}
+
+@media only screen
+and (max-device-width: 500px)
+and (-webkit-min-device-pixel-ratio: 2) {
+  .titleDash{
+    font-size: 0rem;
+    padding-left: 50px;
+  }
+}
+
+@media only screen
+and (max-width: 650px)
+and (-webkit-min-device-pixel-ratio: 1) {
+  .titleDash{
+    font-size: 0rem;
+    padding-left: 50px;
+  }
+}
+
+@media only screen
+and (min-width: 650px)
+and (max-width: 1920px)
+and (-webkit-min-device-pixel-ratio: 1) {
+  .titleDash{
+    font-size: 3rem;
+    padding-left: 50px;
+  }
+}
+
+
+@media
+  (min-device-width: 300px)
+  and (max-device-width: 500px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+  .titleDash{
+    font-size: 0rem;
+    padding-left: 50px;
+  }
+}
+
+@media
+  (min-device-width: 600px)
+  and (max-device-width: 800px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+  .titleDash{
+    font-size: 3rem;
+    padding-left: 50px;
+  }
+}
+
+@media
+  (min-device-width: 800px)
+  and (max-device-width: 1280px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+  .titleDash{
+    font-size: 3rem;
+    padding-left: 50px;
+  }
+}
+
+@media screen
+  and (min-device-width: 1200px)
+  and (max-device-width: 1600px)
+  and (-webkit-min-device-pixel-ratio: 1) {
+    .titleDash{
+      font-size: 3rem;
+      padding-left: 50px;
+    }
+}
